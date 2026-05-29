@@ -1,7 +1,8 @@
 # fft_simple_dma_transfer
 
+A very simple demo to show how to use axi_dma and fft ipcore
 The whole datapath is:
-interleaved signal data -> FFT -> RAM -> simple_dma_transfer -> PS -> draw FFT spectrum 
+interleaved signal data -> RAM -> FFT -> RAM -> simple_dma_transfer -> PS -> draw FFT spectrum 
 
 This design is for 
 1.high-performance rather than resources
